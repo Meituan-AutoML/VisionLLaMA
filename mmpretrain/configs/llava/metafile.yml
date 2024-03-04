@@ -1,0 +1,51 @@
+Collections:
+  - Name: LLaVA
+    Metadata:
+      Architecture:
+        - LLaMA
+        - CLIP
+    Paper:
+      Title: Visual Instruction Tuning
+      URL: https://arxiv.org/abs/2304.08485
+    README: configs/llava/README.md
+
+Models:
+  - Name: llava-7b-v1_caption
+    Metadata:
+      FLOPs: null
+      Parameters: 7045816320
+    In Collection: LLaVA
+    Results:
+      - Task: Image Caption
+        Dataset: COCO
+        Metrics:
+          BLEU-4: null
+          CIDER: null
+    Weights: https://download.openmmlab.com/mmclassification/v1/llava/llava-7b-v1_liuhaotian_20231025-c9e119b6.pth
+    Config: configs/llava/llava-7b-v1_caption.py
+  - Name: llava-7b-v1.5_caption
+    Metadata:
+      FLOPs: null
+      Parameters: 7062900736
+    In Collection: LLaVA
+    Results:
+      - Task: Image Caption
+        Dataset: COCO
+        Metrics:
+          BLEU-4: null
+          CIDER: null
+    Weights: https://download.openmmlab.com/mmclassification/v1/llava/llava-7b-v1.5_liuhaotian_20231025-5828aa5a.pth
+    Config: configs/llava/llava-7b-v1.5_caption.py
+  - Name: llava-7b-v1.5_vqa
+    Metadata:
+      FLOPs: null
+      Parameters: 7062900736
+    In Collection: LLaVA
+    Results:
+      - Task: Visual Question Answering
+        Dataset: COCO
+        Metrics:
+          BLEU-4: null
+          CIDER: null
+    Weights: https://download.openmmlab.com/mmclassification/v1/llava/llava-7b-v1.5_liuhaotian_20231025-5828aa5a.pth
+    Config: configs/llava/llava-7b-v1.5_vqa.py

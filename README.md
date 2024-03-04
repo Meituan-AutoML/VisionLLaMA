@@ -11,6 +11,9 @@ Large language models are built on top of a transformer-based architecture to pr
 
 Stay tuned, our code will be released soon!
 
+## Pretrain
+The pre-training instruction is in [PRETRAIN.md](PRETRAIN.md).
+
 ## ✏️ Reference
 
 If you find VisionLLaMA useful in your research or applications, please consider giving a star ⭐ and citing using the following BibTeX:
