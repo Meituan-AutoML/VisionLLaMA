@@ -20,9 +20,9 @@ The pre-training instruction is in [PRETRAIN.md](PRETRAIN.md).
 ### ImageNet 1k Supervised Training
 
 ### ADE 20k Segmentation
-Please see [Segmentation.md](Segmentation.md)
+Please refer to [Segmentation.md](Segmentation.md).
 ### COCO Detection
-
+Please refer to [Detection.md](Detection.md).
 ## ✏️ Reference
 
 If you find VisionLLaMA useful in your research or applications, please consider giving a star ⭐ and citing using the following BibTeX:
