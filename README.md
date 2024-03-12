@@ -12,6 +12,7 @@ Large language models are built on top of a transformer-based architecture to pr
 Stay tuned, our code will be released soon!
 ## Generation
 ### DITLLaMA
+Please refer to [DITLLaMA.md](DITLLaMA.md)
 ### SITLLaMA
 ## UnderStanding
 

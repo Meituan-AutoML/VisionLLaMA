@@ -15,4 +15,5 @@ bash ./tools/dist_train.sh  configs/twins/mask-rcnn_twins-b-p4-w7_fpn_ms-crop-3x
 
 ## Acknowledgement
 
-Our code is based on [mmdetection](https://github.com/open-mmlab/mmdetection) and [Twins](https://github.com/Meituan-AutoML/Twins) thanks for their great work.
+Our code is based on [mmdetection](https://github.com/open-mmlab/mmdetection) and [Twins](https://github.com/Meituan-AutoML/Twins). Thanks for their great work.
+Specifically, we start from  [this commit id](https://github.com/open-mmlab/mmdetection/commit/44ebd17b145c2372c4b700bfb9cb20dbd28ab64a).

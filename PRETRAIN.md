@@ -18,4 +18,4 @@ bash ./tools/dist_train.sh  configs/mae/benchmarks/lama-base-p16_8xb2048-linear-
 
 ## Acknowledgement
 
-Our code is based on [mmpretrain](https://github.com/open-mmlab/mmpretrain.git), thanks for their great work.
+Our code is based on [mmpretrain](https://github.com/open-mmlab/mmpretrain.git). Thanks for their great work. Specifically, we start from [this commit id](https://github.com/open-mmlab/mmpretrain/commit/17a886cb5825cd8c26df4e65f7112d404b99fe12).

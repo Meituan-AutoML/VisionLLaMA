@@ -26,4 +26,5 @@ bash ./tools/dist_train.sh  configs/twins/twins_svt_lama_as-l_uperhead_8xb2-160k
 
 ## Acknowledgement
 
-Our code is based on [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) and [Twins](https://github.com/Meituan-AutoML/Twins) thanks for their great work.
+Our code is based on [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) and [Twins](https://github.com/Meituan-AutoML/Twins). Thanks for their great work.
+Specifically, we start from [this commit id](https://github.com/open-mmlab/mmsegmentation/commit/c685fe6767c4cadf6b051983ca6208f1b9d1ccb8).
