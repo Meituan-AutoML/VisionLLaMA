@@ -10,9 +10,18 @@ Large language models are built on top of a transformer-based architecture to pr
 ## Updates
 
 Stay tuned, our code will be released soon!
+## Generation
+### DITLLaMA
+### SITLLaMA
+## UnderStanding
 
-## Pretrain
+### Pretrain using MIM
 The pre-training instruction is in [PRETRAIN.md](PRETRAIN.md).
+### ImageNet 1k Supervised Training
+
+### ADE 20k Segmentation
+Please see [Segmentation.md](Segmentation.md)
+### COCO Detection
 
 ## ✏️ Reference
 
