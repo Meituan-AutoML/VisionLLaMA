@@ -1,3 +1,11 @@
+## Model Zoo
+| name           | #params | Iterations | FID   | url |
+|----------------|---------|------------|-------| --- | 
+| DiT-LLaMA-B/4  | 130M    | 400k       | 39.51 | [model](https://huggingface.co/mtgv/DiTLLaMA-B-4/blob/main/0400000.pt) |
+| DiT-LLaMA-L/4  | 458M    | 400k       | 18,64 | [model](https://huggingface.co/mtgv/DiTLLaMA-L-4/blob/main/0400000.pt) |
+| DiT-LLaMA-XL/4 | 675M    | 400k       | 18.69 | [model](https://huggingface.co/mtgv/DiTLLaMA-XL-4/blob/main/0400000.pt) |
+| DiT-LLaMA-XL/2 | 675M    | 2400k      | 2.42  | [model](https://huggingface.co/mtgv/DiTLLaMA-XL-2/blob/main/2400000.pt) |
+
 ## Training 
 By default, all models are trained for 400k iterations (about 80epochs). If you have more resources, you can increase the epochs. 
 2400k iters is about 480 epochs on ImageNet dataset.

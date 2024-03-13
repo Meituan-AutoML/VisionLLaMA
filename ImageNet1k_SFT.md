@@ -23,6 +23,14 @@ sh dist_train_v2.sh vit_llama_rope_large_patch16 8 --data-path /workdir/ILSVRC20
 
 
 ## Pyramid Transformer
+### Model Zoo
+| name                  | params | Top-1 Acc | url                                                                                      |
+|-----------------------|--------|-----------|------------------------------------------------------------------------------------------| 
+| Pyramid-VisionLLaMA-S | 22M    | 81.6      | [model](https://huggingface.co/mtgv/Pyramid-VisionLLaMA-S/blob/main/best_checkpoint.pth) |
+| Pyramid-VisionLLaMA-B | 56M    | 83.2      | [model](https://huggingface.co/mtgv/Pyramid-VisionLLaMA-B/blob/main/best_checkpoint.pth) |
+| Pyramid-VisionLLaMA-L | 99M    | 83.6      | [model](https://huggingface.co/mtgv/Pyramid-VisionLLaMA-L/blob/main/best_checkpoint.pth) |
+
+
 ### Small
 ```
 cd deit
