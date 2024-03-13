@@ -21,7 +21,7 @@ Please refer to [SiTLLaMA.md](SiTLLaMA.md)
 ### Pretrain using MIM
 The pre-training instruction is in [PRETRAIN.md](PRETRAIN.md).
 ### ImageNet 1k Supervised Training
-
+Please refer to [ImageNet1k_SFT](ImageNet1k_SFT.md)
 ### ADE 20k Segmentation
 Please refer to [Segmentation.md](Segmentation.md).
 ### COCO Detection

@@ -2,22 +2,26 @@
 
 VisionLLaMA-B with 800 epochs using MAE.
 ```
+cd mmseg 
 bash ./tools/dist_train.sh  configs/mae/lama-base_upernet_8xb2-800-amp-160k_ade20k-512x512.py    8 --amp &> lama-base_upernet_8xb2-800-amp-160k_ade20k-512x512.log
 ```
 
 VisionLLaMA-B with 1600 epochs using MAE.
 ```
+cd mmseg 
 bash ./tools/dist_train.sh  configs/mae/lama-base_upernet_8xb2-1600-amp-160k_ade20k-512x512.py    8 --amp &> lama-base_upernet_8xb2-1600-amp-160k_ade20k-512x512.log
 ```
 
 ## Pyramid VisionLLaMA
 Pyramid VisionLLaMA-B
 ```
+cd mmseg 
 bash ./tools/dist_train.sh  configs/twins/twins_svt_lama_as-b_uperhead_8xb2-160k_ade20k-512x512.py 8 --amp &> twins_svt_lama_as-b_uperhead_8xb2-160k_ade20k-512x512.log
 ```
 Pyramid VisionLLaMA-L
 
 ```
+cd mmseg 
 bash ./tools/dist_train.sh  configs/twins/twins_svt_lama_as-l_uperhead_8xb2-160k_ade20k-512x512.py 8 --amp &> twins_svt_lama_as-l_uperhead_8xb2-160k_ade20k-512x512.log
 
 ```
