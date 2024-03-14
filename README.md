@@ -7,9 +7,10 @@ VisionLLaMA: A Unified LLaMA Interface for Vision Tasks
 ## Introduction
 Large language models are built on top of a transformer-based architecture to process textual inputs. For example, the LLaMA stands out among many open-source implementations. Can the same transformer be used to process 2D images? In this paper, we answer this question by unveiling a LLaMA-like vision transformer in plain and pyramid forms, termed VisionLLaMA, which is tailored for this purpose. VisionLLaMA is a unified and generic modelling framework for solving most vision tasks. We extensively evaluate its effectiveness using typical pre-training paradigms in a good portion of downstream tasks of image perception and especially image generation. In many cases, VisionLLaMA have exhibited substantial gains over the previous state-of-the-art vision transformers. We believe that VisionLLaMA can serve as a strong new baseline model for vision generation and understanding. 
 
-## Updates
+[//]: # (## Updates)
 
-Stay tuned, our code will be released soon!
+[//]: # ()
+[//]: # (Our code is released.)
 ## Generation
 ### DITLLaMA
 Please refer to [DiTLLaMA.md](DiTLLaMA.md)

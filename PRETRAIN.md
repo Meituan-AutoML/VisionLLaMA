@@ -3,7 +3,7 @@
 |-----------------------|-----------------|---------------|-----------------------------------------------|------------------------------------------------------------------------------------| 
 | VisionLLaMA-Base-MAE  | 800             | 84.0          |69.7| [model](https://huggingface.co/mtgv/VisionLLaMA-Base-MAE/blob/main/epoch_800.pth)  |
 | VisionLLaMA-Base-MAE  | 1600            | 84.3          |71.7| [model](https://huggingface.co/mtgv/VisionLLaMA-Base-MAE/blob/main/epoch_1600.pth) |
-| VisionLLaMA-Large-MAE | 800             | 5.5           |77.3| [model](https://huggingface.co/mtgv/VisionLLaMA-Large-MAE/blob/main/epoch_800.pth) |
+| VisionLLaMA-Large-MAE | 800             | 85.5          |77.3| [model](https://huggingface.co/mtgv/VisionLLaMA-Large-MAE/blob/main/epoch_800.pth) |
 
 
 ## Pretrain
