@@ -1,5 +1,5 @@
 <h1 align="center">
-VisionLLaMA: A Unified LLaMA Interface for Vision Tasks
+[ECCV2024] VisionLLaMA: A Unified LLaMA Backbone for Vision Tasks
 </h1>
 
 [![arXiv](http://img.shields.io/badge/cs.CV-arXiv%3A2403.00522-B31B1B.svg)](https://arxiv.org/abs/2403.00522)
@@ -31,10 +31,11 @@ Please refer to [Detection.md](Detection.md).
 
 If you find VisionLLaMA useful in your research or applications, please consider giving a star ⭐ and citing using the following BibTeX:
 ```
-@article{chu2024visionllama,
-  title={VisionLLaMA: A Unified LLaMA Interface for Vision Tasks},
+@inproceedings{chu2024visionllama,
+  title={VisionLLaMA: A Unified LLaMA Backbone for Vision Tasks},
   author={Chu, Xiangxiang and Su, Jianlin and Zhang, Bo and Shen, Chunhua},
-  journal={arXiv preprint arXiv:2403.00522},
+  booktitle={European Conference on Computer Vision},
   year={2024}
 }
+
 ```
